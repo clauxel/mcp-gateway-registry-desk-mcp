@@ -1,0 +1,25 @@
+{
+  "error": "Error: server card fetch failed 522",
+  "fallback": {
+    "slug": "mcpgatewaydesk",
+    "name": "MCP Gateway Registry Desk",
+    "website": "https://mcpgatewaydesk.clauxel.com/",
+    "endpoint": "https://mcpgatewaydesk.clauxel.com/mcp",
+    "serverCard": "https://mcpgatewaydesk.clauxel.com/.well-known/mcp/server-card.json",
+    "registryName": "com.clauxel.mcpgatewaydesk/mcpgatewaydesk-mcp",
+    "tools": [
+      "list_team_tools",
+      "route_tool_call",
+      "read_permission_state",
+      "export_gateway_log"
+    ],
+    "docsRepo": "mcp-gateway-registry-desk-mcp",
+    "docs": "https://github.com/clauxel/mcp-gateway-registry-desk-mcp",
+    "packageName": "@clauxel/mcpgatewaydesk-mcp",
+    "directoryName": "mcpgatewaydesk-mcp",
+    "category": "Developer Tools",
+    "tagline": "Hosted MCP for AI SDK MCP gateway registry.",
+    "description": "MCP Gateway Registry Desk is a paid remote MCP endpoint for AI SDK MCP gateway registry. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
+    "icon": "https://mcpgatewaydesk.clauxel.com/favicon.svg"
+  }
+}
