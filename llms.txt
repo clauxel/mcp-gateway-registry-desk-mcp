@@ -1,15 +1,12 @@
 # MCP Gateway Registry Desk
 
-MCP Gateway Registry Desk is a hosted remote MCP for AI SDK MCP gateway registry.
+MCP Gateway Registry Desk is a paid remote MCP endpoint for AI SDK MCP gateway registry. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.
 
 Website: https://mcpgatewaydesk.clauxel.com/
-Docs pattern reference: https://github.com/clauxel/MiroFish
-Primary keyword: AI SDK MCP gateway registry
-Type: MCP
-Default plan: team
 MCP endpoint: https://mcpgatewaydesk.clauxel.com/mcp
-Server card: https://mcpgatewaydesk.clauxel.com/server-card.json
-Registry name: com.clauxel.mcpgatewaydesk/mcpgatewaydesk-mcp
-Tools: list_team_tools, route_tool_call, read_permission_state, export_gateway_log
+Server card: https://mcpgatewaydesk.clauxel.com/.well-known/mcp/server-card.json
+Docs: https://github.com/clauxel/mcp-gateway-registry-desk-mcp
 
-Public boundary: docs-only repository; no production source code or secrets.
+Use case: Hosted MCP for AI SDK MCP gateway registry.
+Authentication: Bearer token required for production use.
+Tools: list_team_tools, route_tool_call, read_permission_state, export_gateway_log
